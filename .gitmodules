@@ -1,0 +1,3 @@
+[submodule "Up-Vote-Bot"]
+	path = Up-Vote-Bot
+	url = https://github.com/ZeroPass/Up-Vote-Bot.git
