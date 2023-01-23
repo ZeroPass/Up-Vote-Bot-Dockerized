@@ -27,3 +27,7 @@ RUN /app/scripts/buildAbieos.sh
 COPY ./requirements.txt /app/scripts/requirements.txt
 RUN chmod +x /app/scripts/requirements.txt
 RUN python -m pip install -r /app/scripts/requirements.txt
+
+# add/python run script
+COPY ./run.sh /app/scripts/run.sh
+RUN chmod +x /app/scripts/run.sh
