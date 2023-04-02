@@ -1,5 +1,5 @@
 # Up-Vote-Bot-Dockerized
-Dockerized Up Vote Bot - Private use only!
+Dockerized Up Vote Bot application
 
 ## Git help
 
