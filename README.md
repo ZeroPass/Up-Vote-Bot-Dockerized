@@ -14,9 +14,9 @@ Dockerized Up Vote Bot application
   ```
   
 ## Docker help
-* Build image
+* Build image (be careful on dot at the end:) )
   ```
-  docker build -t up_vote_bot
+  docker build -t up_vote_bot .
   ```
  
 * Run image
