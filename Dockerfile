@@ -31,3 +31,5 @@ RUN python -m pip install -r /app/scripts/requirements.txt
 # add/python run script
 COPY ./run.sh /app/scripts/run.sh
 RUN chmod +x /app/scripts/run.sh
+
+#ENTRYPOINT /app/scripts/run.sh
