@@ -14,12 +14,18 @@ Dockerized Up Vote Bot application
   ```
   
 ## Docker help
-* Build image
+* Build image (be careful on dot at the end:) )
   ```
-  docker build -t up_vote_bot
+  docker build -t up_vote_bot .
   ```
  
 * Run image
   ```
   docker run -t -p 8082:8082 --expose 8080 up_vote_bot
+  ```
+  
+* Python help
+  ```
+  #example of running specific file in the project - you must add PYTHONPATH and LD_LIBRTARY_PATH
+  PYTHONPATH="/app" LD_LIBRARY_PATH="/app/external/abieos-python/external/abieos/build" python /app/chain/eden.py 
   ```
