@@ -21,7 +21,7 @@ Dockerized Up Vote Bot application
  
 * Run image
   ```
-  docker run -t -p 8082:8082 --expose 8080 up_vote_bot
+  docker run -t -p 8080:8080 up_vote_bot
   ```
   
 * Python help
