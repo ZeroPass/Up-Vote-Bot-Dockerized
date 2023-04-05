@@ -32,7 +32,7 @@ RUN python -m pip install -r /app/scripts/requirements.txt
 COPY ./run.sh /app/scripts/run.sh
 RUN chmod +x /app/scripts/run.sh
 
-COPY ./server.sh /app/server.sh
-RUN chmod +x /app/server.sh
+COPY ./server.py /app/server.py
+RUN chmod +x /app/server.py
 
 ENTRYPOINT /app/scripts/run.sh
