@@ -29,3 +29,7 @@ Dockerized Up Vote Bot application
   #example of running specific file in the project - you must add PYTHONPATH and LD_LIBRTARY_PATH
   PYTHONPATH="/app" LD_LIBRARY_PATH="/app/external/abieos-python/external/abieos/build" python /app/chain/eden.py 
   ```
+  
+## License
+
+* [MIT](LICENSE.md)
