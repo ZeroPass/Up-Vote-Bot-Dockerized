@@ -35,6 +35,7 @@ Dockerized Up Vote Bot application
 * Make sure that eden_season_env is updated for every election
 * Dont forget to transfer knownUsers table from previous database if you move to the new one ('bot_name' is parameter that tells you which bot has connection with it)
 * Database needs to be created before you run the bot (tables will be created automaticaly)
+* If you want to update Participant.telegramID in database you should change value if dababase from '-1' to ''(empty string). Value '-1' is there because of optimization (that atomic assets API is not called every time we run the cycle)
 
 ## Creating last docker image:
 
