@@ -24,6 +24,6 @@ six==1.16.0
 SQLAlchemy==1.4.46
 TgCrypto==1.2.5
 url-normalize==1.4.3
-urllib3==1.26.13
+urllib3==1.26.17
 websockets==10.4
 requests-unixsocket==0.3.0
