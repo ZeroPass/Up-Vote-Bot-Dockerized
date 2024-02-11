@@ -7,7 +7,7 @@ charset-normalizer==2.1.1
 dfuse==0.0.8
 exceptiongroup==1.1.0
 greenlet==2.0.1
-grpcio==1.53.0
+grpcio==1.53.2
 grpcio-tools==1.51.1
 idna==3.4
 loguru==0.6.0
